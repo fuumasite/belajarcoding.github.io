@@ -27,7 +27,7 @@ while (tanya) {
   }
 
   // tamplikan hasilnya
-  alert("kamu memilih : " + p + " dan komputer memilih : " + comp + "\nmaka hasilnya : kamu  " + hasil);
+  alert("kamu memilih : " + p + "\nkomputer memilih : " + comp + "\nmaka hasilnya : kamu  " + hasil);
 
   tanya = confirm("ingin mengulang lagi?");
 }
