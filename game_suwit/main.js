@@ -5,11 +5,11 @@ while (tanya) {
   // bilangan random
   var comp = Math.random();
   if (comp < 0.34) {
-    comp = "gajah";
+    comp = "gajah" || "Gajah";
   } else if (comp >= 0.34 && comp < 0.67) {
-    comp = "orang";
+    comp = "orang" || "Orang";
   } else {
-    comp = "semut";
+    comp = "semut" || "Semut";
   }
 
   // rules
