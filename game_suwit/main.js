@@ -5,22 +5,22 @@ while (tanya) {
   // bilangan random
   var comp = Math.random();
   if (comp < 0.34) {
-    comp = "gajah" || "Gajah";
+    comp = "gajah";
   } else if (comp >= 0.34 && comp < 0.67) {
-    comp = "orang" || "Orang";
+    comp = "orang";
   } else {
-    comp = "semut" || "Semut";
+    comp = "semut";
   }
 
   // rules
   var hasil = "";
   if (p == comp) {
     hasil = "SERI";
-  } else if (p == "gajah" || p == "Gajah") {
+  } else if (p == "gajah") {
     hasil = comp == "orang" ? "MENANG" : "KALAH";
-  } else if (p == "orang" || p == "Orang") {
+  } else if (p == "orang") {
     hasil = comp == "gajah" ? "KALAH" : "MENANG";
-  } else if (p == "semut" || p == "Semut") {
+  } else if (p == "semut") {
     hasil = comp == "orang" ? "KALAH" : "MENANG";
   } else {
     hasil = "MEMASUKKAN PILIHAN YANG SALAH!!!";
