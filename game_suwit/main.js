@@ -16,14 +16,14 @@ while (tanya) {
   var hasil = "";
   if (p == comp) {
     hasil = "SERI";
-  } else if (p == "gajah") {
+  } else if (p == "gajah" || p == "Gajah") {
     hasil = comp == "orang" ? "MENANG" : "KALAH";
-  } else if (p == "orang") {
+  } else if (p == "orang" || p == "Orang") {
     hasil = comp == "gajah" ? "KALAH" : "MENANG";
-  } else if (p == "semut") {
+  } else if (p == "semut" || p == "Semut") {
     hasil = comp == "orang" ? "KALAH" : "MENANG";
   } else {
-    hasil = "Kamu memasukkan pilihan yang salah";
+    hasil = "MEMASUKKAN PILIHAN YANG SALAH!!!";
   }
 
   // tamplikan hasilnya
