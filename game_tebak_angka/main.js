@@ -8,7 +8,7 @@ while (ulang) {
   var angkaTebakan = prompt("masukkan angka tebakan");
   var kesempatan;
 
-  for (kesempatan = 5; kesempatan >= 1; kesempatan--) {
+  for (kesempatan = 4; kesempatan >= 1; kesempatan--) {
     if (angkaTebakan == angkaRandom) {
       alert("kamu benar\njawaban yang dicari " + angkaRandom);
       break;
