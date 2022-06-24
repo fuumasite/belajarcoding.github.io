@@ -1,6 +1,6 @@
 var ulang = true;
 while (ulang) {
-  alert("Game tebak angka\ntebak angka dari 1 - 10\nkamu punya 3 kesempatan");
+  alert("Game tebak angka\ntebak angka dari 1 - 10\nkamu punya 5 kesempatan");
 
   //angka random 1 - 10
   var angkaRandom = Math.floor(Math.random() * 10) + 1;
@@ -8,7 +8,7 @@ while (ulang) {
   var angkaTebakan = prompt("masukkan angka tebakan");
   var kesempatan;
 
-  for (kesempatan = 2; kesempatan >= 1; kesempatan--) {
+  for (kesempatan = 5; kesempatan >= 1; kesempatan--) {
     if (angkaTebakan == angkaRandom) {
       alert("kamu benar\njawaban yang dicari " + angkaRandom);
       break;
