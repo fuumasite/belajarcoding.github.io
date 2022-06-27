@@ -5,6 +5,10 @@
   color: #333;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   height: 70px;
 }
