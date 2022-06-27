@@ -1,0 +1,217 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  color: #333;
+}
+
+header {
+  height: 70px;
+}
+
+header h1 {
+  display: inline-block;
+
+  padding: 15px 24px;
+  text-transform: uppercase;
+}
+
+header h1 a {
+  text-decoration: none;
+  transition: 0.3s;
+  color: black;
+}
+
+header h1 a:hover {
+  color: rgb(138, 138, 138);
+}
+
+header ul li a {
+  transition: 0.3s;
+  text-decoration: none;
+  color: black;
+}
+
+header ul li a:hover {
+  color: rgb(138, 138, 138);
+}
+
+header ul {
+  float: right;
+}
+
+header ul li {
+  padding: 24px;
+  display: inline-block;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.mobile-menu {
+  float: right;
+  display: none;
+  padding: 18px;
+}
+.mobile-menu:hover {
+  cursor: pointer;
+}
+
+#check {
+  display: none;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -300px;
+  width: 300px;
+  background-color: rgba(51, 51, 51, 0.9);
+  transition: 0.3s;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: white;
+}
+.sidebar ul li {
+  padding: 24px;
+  transition: 0.3s;
+  transition-property: background-color;
+  list-style: none;
+}
+
+.sidebar ul li a:hover {
+  color: rgb(36, 36, 36);
+}
+
+#check:checked ~ .sidebar {
+  left: 0;
+}
+.background {
+  background-image: url("./img/background.webp");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.banner {
+  padding: 120px 0;
+}
+
+section {
+  padding: 50px 0;
+}
+
+.banner img {
+  margin: auto;
+  border: 5px solid white;
+  border-radius: 50%;
+  width: 250px;
+  height: 240px;
+  box-shadow: 0 3px 5px rgb(94, 92, 92);
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.follow button {
+  display: block;
+  margin: auto;
+}
+
+.follow a {
+  text-decoration: none;
+  color: red;
+}
+
+.follow a:hover {
+  color: white;
+}
+
+.banner h2,
+.banner p,
+.banner span {
+  color: white;
+  text-align: center;
+  text-shadow: 0 3px 5px black;
+}
+
+.banner h2 {
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 18px;
+}
+
+.about hr,
+.portfolio hr,
+.contact hr {
+  width: 20%;
+  margin: auto;
+}
+
+.about img {
+  width: 100%;
+  height: 100%;
+}
+
+.space {
+  margin-bottom: 30px;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #242424;
+  color: white;
+  padding: 20px;
+}
+.footer p,
+.footer h3,
+b {
+  color: white;
+}
+
+.footer a {
+  color: rgb(218, 218, 218);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: rgb(92, 92, 92);
+}
+.icon2 i {
+  display: inline-block;
+  margin-right: 30px;
+  color: rgb(218, 218, 218);
+}
+
+.icon2 a:hover {
+  color: rgb(92, 92, 92);
+}
+
+@media (max-width: 768px) {
+  .mobile-menu {
+    display: block;
+  }
+  header ul {
+    display: none;
+  }
+}
