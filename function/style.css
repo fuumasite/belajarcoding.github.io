@@ -1,0 +1,35 @@
+.slider h3,
+.slider h5 {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.school p {
+  font-size: 20px;
+}
+
+.parallax-container {
+  height: 20%;
+}
+
+.parallax img {
+  opacity: 0.7 !important;
+}
+
+.school .gambar img {
+  max-width: 100px;
+  filter: drop-shadow(1px 1px 1px rgba(255, 255, 255, 0.8));
+}
+
+.school h3,
+.school p {
+  text-shadow: 1px 1px 3px rgb(255, 255, 255);
+}
+
+section,
+footer {
+  padding: 20px 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
