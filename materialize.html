@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Materialize</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link rel="stylesheet" href="./function/materialize/css/materialize.min.css" />
-    <link rel="stylesheet" href="./function/style.css" />
+    <link rel="stylesheet" href="./materlize/materialize/css/materialize.min.css" />
+    <link rel="stylesheet" href="./materlize/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="./website_intan/img/favicon-32x32.png" />
   </head>
   <body id="home" class="scrollspy">
@@ -40,7 +41,7 @@
     <div class="slider">
       <ul class="slides">
         <li>
-          <img src="./function/img/slider/1.jpg" />
+          <img src="./materlize/img/slider/1.jpg" />
           <!-- random image -->
           <div class="caption center-align">
             <h3 class="white-text text-darken-3">Nama Saya Binggie Rashel Prasetyo</h3>
@@ -48,7 +49,7 @@
           </div>
         </li>
         <li>
-          <img src="./function/img/slider/2.jpg" />
+          <img src="./materlize/img/slider/2.jpg" />
           <!-- random image -->
           <div class="caption center-align">
             <h3 class="white-text text-darken-3">Selamat Datang Di Websites Saya</h3>
@@ -56,7 +57,7 @@
           </div>
         </li>
         <li>
-          <img src="./function/img/slider/3.jpg" />
+          <img src="./materlize/img/slider/3.jpg" />
           <!-- random image -->
           <div class="caption center-align">
             <h3 class="white-text text-darken-3">Salam Kenal</h3>
@@ -70,14 +71,14 @@
       <div class="container">
         <div class="row">
           <h3 class="center light grey-text text-darken-3">Tentang Saya</h3>
-          <div class="col m6 light">
+          <div class="col m6 light" data-aos="fade-right" data-aos-duration="1000">
             <h5>Saya Adalah Manusia</h5>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolor nemo neque earum, adipisci voluptates. Similique consequatur beatae dicta dolor sapiente nihil at ipsam amet iste commodi. Quibusdam, laudantium
               vitae.
             </p>
           </div>
-          <div class="col m6">
+          <div class="col m6" data-aos="fade-left" data-aos-duration="1000">
             <p>WEB DEVELOPMENT</p>
             <div class="progress">
               <div class="determinate" style="width: 95%"></div>
@@ -98,24 +99,24 @@
     <section  id="school" class="school scrollspy">
       
     <div class="parallax-container">
-      <div class="parallax"><img src="./function/img/school/4.jpg"></div>
+      <div class="parallax"><img src="./materlize/img/school/4.jpg"></div>
       <div class="container school">
         <h3 class="center light black-text">Sekolah Saya</h3>
 
-            <p class="center light black-text">
+            <p class="center light black-text" data-aos="zoom-in" data-aos-duration="1000">
               Saya Bersekolah Di SMKN 1 Kemang Bogor, <br />
               Jurusan yang saya ambil adalah Jurusan TKJ
             </p>
         <div class="row">
           <div class="gambar">
-          <div class="col m4 s4 center">
-            <img src="./function/img/school/comp1.png" alt="" />
+          <div class="col m4 s4 center" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="./materlize/img/school/comp1.png" alt="" />
           </div>
-          <div class="col m4 s4 center">
-            <img src="./function/img/school/comp2.png" alt="" />
+          <div class="col m4 s4 center " data-aos="zoom-in" data-aos-duration="1000">
+            <img src="./materlize/img/school/comp1.png" alt="" />
           </div>
-          <div class="col m4 s4 center">
-            <img src="./function/img/school/comp3.png" alt="" />
+          <div class="col m4 s4 center" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="./materlize/img/school/comp3.png" alt="" />
           </div>
           </div>
         </div>
@@ -128,21 +129,21 @@
         <div class="row">
           <h3 class="light center grey-text text-darken-3">Hobi Saya</h3>
        
-        <div class="col m4 s12">
+        <div class="col m4 s12" data-aos="flip-left" data-aos-duration="1000">
           <div class="card-panel center">
             <i class="material-icons medium">desktop_windows</i>
             <h5>Ngoding</h5>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, ad!</p>
           </div>
         </div>
-        <div class="col m4 s12">
+        <div class="col m4 s12" data-aos="flip-left" data-aos-duration="2000">
           <div class="card-panel center">
             <i class="material-icons medium">headphones</i>
             <h5>Musik</h5>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, ad!</p>
           </div>
         </div>
-        <div class="col m4 s12">
+        <div class="col m4 s12" data-aos="flip-left" data-aos-duration="3000">
           <div class="card-panel center">
             <i class="material-icons medium">games</i>
             <h5>Main Game</h5>
@@ -157,27 +158,13 @@
         <h3 class="light center grey-text text-darken-3">
           Portfolio
         </h3>
-        <div class="row">
-          <div class="col m4 s12">
-            <img src="./function/img/portfolio/1.jpg" class="responsive-img materialboxed" alt="">
-          </div>
-          <div class="col m4 s12">
-            <img src="./function/img/portfolio/2.jpg" class="responsive-img materialboxed" alt="">
-          </div>
-          <div class="col m4 s12">
-            <img src="./function/img/portfolio/3.jpg" class="responsive-img materialboxed" alt="">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col m4 s12">
-            <img src="./function/img/portfolio/4.jpg" class="responsive-img materialboxed" alt="">
-          </div>
-          <div class="col m4 s12">
-            <img src="./function/img/portfolio/5.jpg" class="responsive-img materialboxed" alt="">
-          </div>
-          <div class="col m4 s12">
-            <img src="./function/img/portfolio/6.jpg" class="responsive-img materialboxed" alt="">
-          </div>
+        <div class="carousel" data-aos="zoom-in" data-aos-duration="1000">
+          <a class="carousel-item" href="#one!"><img src="./materlize/img/portfolio/1.jpg"></a>
+          <a class="carousel-item" href="#two!"><img src="./materlize/img/portfolio/2.jpg"></a>
+          <a class="carousel-item" href="#three!"><img src="./materlize/img/portfolio/3.jpg"></a>
+          <a class="carousel-item" href="#four!"><img src="./materlize/img/portfolio/4.jpg"></a>
+          <a class="carousel-item" href="#five!"><img src="./materlize/img/portfolio/5.jpg"></a>
+          <a class="carousel-item" href="#six!"><img src="./materlize/img/portfolio/6.jpg"></a>
         </div>
       </div>
     </section>
@@ -186,7 +173,7 @@
       <div class="container">
         <h3 class="light center grey-text text-darken-3">Kontak Saya</h3>
         <div class="row">
-          <div class="col m6 s12">
+          <div class="col m6 s12"data-aos="fade-in" data-aos-duration="1000">
             <div class="card-panel grey darken-3 white-text center">
               <i class="material-icons medium">email</i>
               <h5>Kontak</h5>
@@ -199,7 +186,7 @@
               <li class="collection-item">West Java, Indonesia</li>
             </ul>
           </div>
-          <div class="col m6 s12">
+          <div class="col m6 s12" data-aos="fade-up" data-aos-duration="1000">
             <form action="">
               <div class="card-panel">
                 <h5>Dimohon Untuk Mengisi Formulir Ini</h5>
@@ -231,7 +218,8 @@
       <p class="flow-text">Binggie Rashel. Copyright 2022.</p>
     </footer>
 
-    <script src="./function/materialize/js/materialize.min.js"></script>
-    <script src="./function/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./materlize/materialize/js/materialize.min.js"></script>
+    <script src="./materlize/main.js"></script>
   </body>
 </html>

@@ -9,7 +9,7 @@ M.Slider.init(slider, {
   interval: 3000,
 });
 
-const parallax = document.querySelector(".parallax-container");
+const parallax = document.querySelector(".parallax");
 M.Parallax.init(parallax);
 
 const materialbox = document.querySelector(".materialboxed");
@@ -20,3 +20,12 @@ M.ScrollSpy.init(scroll),
   {
     scrollOffset: 50,
   };
+
+const carousel = document.querySelector(".carousel");
+M.Carousel.init(carousel, {
+  indicators: true,
+});
+
+AOS.init({
+  once: true,
+});

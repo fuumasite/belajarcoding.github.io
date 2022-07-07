@@ -8,7 +8,7 @@
 }
 
 .parallax-container {
-  height: 20%;
+  height: 30%;
 }
 
 .parallax img {
@@ -17,17 +17,20 @@
 
 .school .gambar img {
   max-width: 100px;
-  filter: drop-shadow(1px 1px 1px rgba(255, 255, 255, 0.8));
+  filter: drop-shadow(1px 1px 1px rgba(19, 19, 19, 0.952));
 }
 
 .school h3,
 .school p {
-  text-shadow: 1px 1px 3px rgb(255, 255, 255);
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
 }
 
-section,
+section {
+  padding: 0.1px 0;
+}
+
 footer {
-  padding: 20px 0;
+  padding: 10px;
 }
 
 html {
